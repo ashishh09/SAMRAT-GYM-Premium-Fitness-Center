@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-brand-orange: #FF6A00;
+  --color-brand-orange-hover: #E55C00;
+  --color-brand-black: #090909;
+  --color-brand-card: #141414;
+  --color-brand-surface: #1C1C1C;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: #FFFFFF;
+    background-color: #090909;
+  }
+
+  h1, h2, h3, h4, .font-athletic {
+    font-family: var(--font-display);
+    letter-spacing: 0.02em;
+  }
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6A00;
+}

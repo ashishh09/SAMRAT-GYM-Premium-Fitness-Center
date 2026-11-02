@@ -1,0 +1,6 @@
+{
+  "name": "SAMRAT GYM – Premium Fitness Center",
+  "description": "Official website for SAMRAT GYM (सम्राट जिम) in Chhatrapati Sambhajinagar, Maharashtra. Explore facilities, gallery, member reviews, and membership enquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
